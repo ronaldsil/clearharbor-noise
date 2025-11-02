@@ -192,4 +192,3 @@ BSD-3-Clause-Clear
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Hardhat Documentation](https://hardhat.org/docs)
 
-
