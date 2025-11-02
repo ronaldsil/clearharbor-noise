@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+.cache/
+.vercel/
+
+# Environment files
+.env
+.env*.local
+*.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Cursor rules (sensitive)
+.cursor/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+
+# Hardhat artifacts
+artifacts/
+cache/
+coverage/
+coverage.json
+.coverage_artifacts
+.coverage_cache
+.coverage_contracts
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+types/
+
+# Deployments (contains sensitive contract addresses, can be regenerated)
+deployments/
+
+# Temporary files
+tmp/
+*.tmp
+*.temp
+
+# Package manager locks (optional, but recommended to ignore)
+# Uncomment if you want to ignore lock files
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+
