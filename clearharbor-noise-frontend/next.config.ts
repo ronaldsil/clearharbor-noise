@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   reactStrictMode: true,
   // Note: Headers are configured in vercel.json for static export
+  // Static export configuration for FHEVM dApp
 };
 
 export default nextConfig;
