@@ -6,6 +6,8 @@ A decentralized application (dApp) built with FHEVM for privacy-preserving commu
 
 ClearHarbor Noise enables communities to monitor environmental noise levels while maintaining complete privacy for individual residents. The system uses Fully Homomorphic Encryption (FHE) to allow on-chain computations on encrypted data, enabling aggregate statistics and alerts without revealing any individual readings.
 
+This dApp leverages FHEVM (Fully Homomorphic Encryption Virtual Machine) to perform privacy-preserving computations directly on the blockchain.
+
 ## Key Features
 
 - **Encrypted Noise Reporting**: Residents submit encrypted decibel and duration data on-chain

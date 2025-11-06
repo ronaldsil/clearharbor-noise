@@ -10,6 +10,7 @@ import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
  * @dev Residents submit encrypted decibel levels and durations. 
  *      The contract performs threshold evaluation and location-based aggregation on encrypted data.
  *      Only aggregated statistics are revealed; individual records remain encrypted.
+ *      Uses FHEVM native operations: euint16, FHE.add, FHE.gt, FHE.allow
  */
 contract NoiseMonitor is ZamaEthereumConfig {
     /// @notice Noise record submitted by a resident
