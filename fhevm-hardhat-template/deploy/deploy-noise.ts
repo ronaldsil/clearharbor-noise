@@ -13,6 +13,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   });
 
   console.log(`NoiseMonitor contract deployed at: ${deployed.address}`);
+  console.log(`Network: ${hre.network.name}`);
 };
 
 export default func;
