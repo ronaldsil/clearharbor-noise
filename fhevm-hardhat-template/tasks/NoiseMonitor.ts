@@ -22,6 +22,7 @@ task("noise:submit", "Submit a noise report")
 
     // Note: In production, you would encrypt these values using FHEVM instance
     // For this task, we're showing the structure
+    // FHEVM encryption must be done client-side before submission
     console.log("\n⚠️  This task requires FHEVM instance to encrypt data.");
     console.log("Please use the frontend application to submit encrypted reports.");
   });
