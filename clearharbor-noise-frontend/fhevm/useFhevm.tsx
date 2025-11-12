@@ -23,7 +23,7 @@ export function FhevmProvider({ children }: { children: ReactNode }) {
 
   const createInstance = useCallback(
     async (provider: Eip1193Provider, mockChains?: Record<number, string>) => {
-      // Cancel previous instance creation
+      // Cancel previous instance creation if in progress
       if (abortController) {
         abortController.abort();
       }
