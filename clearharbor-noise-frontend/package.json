@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "license": "BSD-3-Clause-Clear",
+  "description": "Frontend application for ClearHarbor Noise dApp with FHEVM integration",
   "scripts": {
     "dev:mock": "npm run ishhrunning && npm run clean && npm run genabi && next dev --turbopack",
     "dev": "npm run clean && npm run genabi && next dev --turbopack",
